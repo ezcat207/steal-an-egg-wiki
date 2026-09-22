@@ -50,3 +50,12 @@ reports/
 
 # anvil-ops site-local ops data (metrics --import-aio --save CSV archives) — never swept into a submit PR
 ops/
+
+# AppleDouble sidecar files -- this repo lives on an exFAT drive (no native
+# xattr support), so macOS creates a ._<name> shadow file for every real
+# file. Harmless in the working tree, but they can leak into .git internals
+# too (objects/refs) and break git's own pack-index parsing -- if `git
+# status`/`fsck` starts spewing "non-monotonic index" or "badRefName"
+# errors, run: find .git -iname "._*" -delete
+._*
+.DS_Store
