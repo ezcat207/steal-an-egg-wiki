@@ -1,11 +1,11 @@
 {
-  "name": "Anvil Quest Wiki",
-  "short_name": "AQ Wiki",
-  "description": "Complete Anvil Quest wiki with boss guides, codes, and tier lists.",
+  "name": "Steal an Egg Wiki",
+  "short_name": "SAE Wiki",
+  "description": "Steal an Egg Roblox guide: biome speed requirements, pet tier list, base defense tips, and a verified codes reality check.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#f36716",
+  "theme_color": "#e7b008",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
